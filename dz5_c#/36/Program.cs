@@ -31,4 +31,5 @@ int[] array = new int[6];
 FillArray(array);
 PrintArray(array);
 SumArray(array);
+System.Console.WriteLine();
 System.Console.WriteLine(SumArray(array));
