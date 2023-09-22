@@ -12,9 +12,9 @@ else
 return Ack (m-1,Ack (m,n-1)); 
 } 
 
-System.Console.WriteLine("Enter please parameter m "); 
+System.Console.WriteLine("Enter please parameter m (> or = 0)"); 
 int m = Convert.ToInt32(Console.ReadLine()); 
-System.Console.WriteLine("Enter please parameter n "); 
+System.Console.WriteLine("Enter please parameter n (> or = 0) "); 
 int n = Convert.ToInt32(Console.ReadLine());
 
 

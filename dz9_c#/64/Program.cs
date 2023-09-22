@@ -6,7 +6,7 @@
 { 
     if (n == 0) 
         return ""; 
-    return $"{n} " + PrintNumbers(n - 1); 
+    return $"{n}, " + PrintNumbers(n - 1); 
  
 } 
  
